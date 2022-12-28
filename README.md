@@ -9,3 +9,16 @@
 
 ## A font used in this project
  [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+
+# ⭐️ Ex. 1
+
+Create an object called `menu` that represents the following menu item:
+
+Salted Caramel Ice Cream
+2.95
+butter, ice cream, salt, sugar
+
+The object should contain the following properties:
+- name
+- price
+- ingredients
