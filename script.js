@@ -19,3 +19,25 @@ delete house.numWindows;
 
 // Exercsise 2
 house.hasGarage = true;
+
+// Invoking Object Methods
+// Ecercise 1
+const myArray = [ function alerter() { alert('Hello!'); } ];
+myArray[0]();
+
+// Exercise 2 
+bell.ring()
+
+// Exercise 3
+tree.growOneFoot();
+
+// Exercise 4
+const chameleon = {
+    color: 'green',
+    changeColor: () => {
+        if (chameleon.color === 'green')
+            chameleon.color = 'pink'
+        else 
+            chemeleon.color = 'green'
+    }
+}
