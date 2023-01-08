@@ -10,6 +10,8 @@
 ## A font used in this project
  [Open Sans](https://fonts.google.com/specimen/Open+Sans)
 
+# 📚 Objects in Depth 
+
 ## 📑 Introduction
 
 ### ⭐️ Ex. 1
@@ -62,3 +64,5 @@ Create an object called `chameleon` with two properties:
 ### ⭐️ Ex. 1
 
 Write an expression using `Object.keys()` to extract the keys (i.e., property names) from the `triangle` object
+
+# 📚 Functions at Runtime 
