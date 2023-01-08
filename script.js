@@ -83,3 +83,10 @@ const albumSalesStrings = musicData.map(el => {
 });
 
 console.log(albumSalesStrings);
+
+// Exercise 3
+const results = musicData.filter(el => {
+    return el.name.length >= 10 && el.name.length <= 25;
+});
+
+console.log(results);
