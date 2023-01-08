@@ -8,7 +8,7 @@
 - #392F5A
 
 ## A font used in this project
- [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+[Open Sans](https://fonts.google.com/specimen/Open+Sans)
 
 # 📚 Objects in Depth 
 
@@ -66,3 +66,26 @@ Create an object called `chameleon` with two properties:
 Write an expression using `Object.keys()` to extract the keys (i.e., property names) from the `triangle` object
 
 # 📚 Functions at Runtime 
+
+## 📑 First-Class Functions
+
+### ⭐️ Ex. 1 
+
+Declare a function named `higherOrderFunction` that takes no arguments,
+and returns an anonymous function.
+
+The returned function itself takes no arguments as well, and simply
+returns the number 8.
+
+## 📑 Callbacks
+
+### ⭐️ Ex. 2
+
+Using the musicData array and map():
+- Return a string for each item in the array in the following format:
+    <album-name> by <artist> sold <sales> copies
+- Store the returned data in a new albumSalesStrings variable
+Note:
+- Do not delete the musicData variable
+- Do not alter any of the musicData content
+- Do not format the sales number; leave it as a long string of digits
